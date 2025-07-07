@@ -1,7 +1,3 @@
-/* <style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-</style> */
-
 body{
   font-family: "Poppins", sans-serif;
 }
@@ -20,11 +16,15 @@ nav ul{
     list-style: none;
     gap: 30px;
 }
-button{
+.btn button{
     background-color: #D01C28;
+    display: flex;
+    text-align: center;
+    justify-content: center;
     color: white;
     height: 30px;
     width: 75px;
+    font-size:medium;
     font-weight: 700;
     padding: 6px 16px;
 }
@@ -33,12 +33,12 @@ button{
 }
 .logo{
     margin-bottom: 40px;
-    height: 5px;
-    width: 10px;
+    height: 2px;
+    width: 2px;
 }
 .Hero{
     display: flex;
-    /* margin-top: 50px; */
+    margin-top: 60px;
     align-items: center;
     justify-content: space-around;
     height: 80vh;
@@ -46,4 +46,66 @@ button{
 h1{
     height: 300px;
     width: 600px;
+}
+.Hero h1{
+    font-weight: 800;
+    font-size: 100px;
+    margin-left: 250px;
+    /* margin-bottom: 50px; */
+    line-height: 100px;
+}
+.sl{
+    height: 90px;
+    width: 400px;
+    font-weight: 600;
+    font-size: large;
+    padding-left: 270px;
+    padding-top: 20px;
+}
+.Herobutton{
+    display: flex;
+    /* margin-bottom: 50px; */
+    margin-left: 265px;
+    gap: 30px;
+    padding: 2px;
+    
+    width: 220px;
+}
+.btnshop{
+    /* display: flex;
+    justify-content: center; */
+    background-color:#D01C28;
+    color: white;
+    border: 1px solid black;
+    height: 40px;
+    width: 120px;
+    font-size: medium;
+    font-weight: 700;
+}
+.btncategory{
+    background-color: transparent;
+    border: 1px solid black;
+    height:40px;
+    width: 120px;
+    font-size:medium;
+    font-weight: 700;
+}
+.shopping{
+    /*   */
+
+}
+.shopping p{
+    margin-left: 265px;
+    /* margin-right: 265px; */
+    /* height: 90px; */
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+.lastlogo{
+    /* margin-bottom: 50px; */
+    display: flex;
+    margin-left: 265px;
+    gap: 30px;
 }

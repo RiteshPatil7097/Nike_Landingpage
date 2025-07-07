@@ -4,15 +4,22 @@ const Hero= () =>{
             
             <div className="Herocontent">
                 <h1>Your Feet Deserve The Best</h1>
-                <p>Your Feet Deserve The Best and We are to help you with youe shoes.Your Feet Deserve The Best and We are to help you with youe shoes.</p>
+                <br></br>
+                <div className="sl">
+                    <p>Your Feet Deserve The Best and We are to help you with youe shoes.Your Feet Deserve The Best and We are to help you with youe shoes.</p>
+                </div>
+                <br></br>
                 <div className="Herobutton">
-                    <button>Shop now</button>
-                    <button>Category</button>
-                 </div>
+                    <button className="btnshop">Shop Now</button>
+                    <button className="btncategory">Category</button>
+                </div>
+                <br></br>
                 <div className="shopping">
-                    <p>also Available on</p>
-                    <img src="/public/flipkart.png"></img>
-                    <img src="/public/amazon.png"></img>
+                    <p>Also Available on</p>
+                    <div className="lastlogo">
+                        <img src="/public/flipkart.png"></img>
+                        <img src="/public/amazon.png"></img>
+                    </div>
                 </div>
             </div>
 

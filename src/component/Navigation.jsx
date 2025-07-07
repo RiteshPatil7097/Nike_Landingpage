@@ -10,7 +10,8 @@ const Navigation= ()=> {
                 <li>About</li>
                 <li>Contact</li>
             </ul>
-            <button>Login</button>
+            <div className="btn"><button>Login</button></div>
+            
             
           </nav>  
         )  
